@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mask Up</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Mask Up</h1>
+            <p>Your guide to safe breathing - check air quality and mask up when necessary!</p>
+        </header>
+
+        <!-- Air Quality Notifier Section -->
+        <section id="air-quality-notifier">
+            <h2>Air Quality Notifier</h2>
+            <div id="aqi-info">
+                <p>Current Air Quality Index (AQI): <span id="aqi-value">Loading...</span></p>
+                <p>Location: <span id="location">Fetching location...</span></p>
+            </div>
+            <div id="notification">
+                <p id="alert-message">Checking air quality...</p>
+            </div>
+        </section>
+
+        <!-- Mask Recommendations Section -->
+        <section id="mask-recommendations">
+            <h2>Mask Recommendations</h2>
+            <div id="recommendation-info">
+                <p>Recommended Mask: <span id="mask-type">N/A</span></p>
+                <p id="mask-guidelines">Wear the recommended mask when AQI is high to reduce inhalation of pollutants.
+                </p>
+            </div>
+        </section>
+
+        <!-- GPS Map Section -->
+        <section id="gps-map">
+            <h2>Air Quality Map</h2>
+            <div id="map-container">
+                <!-- Placeholder for map integration (e.g., Leaflet or Mapbox) -->
+                <p>Loading map...</p>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Mask Up. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="app.js"></script> <!-- Link to external JavaScript file -->
+</body>
+
+</html>
